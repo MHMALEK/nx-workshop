@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "workshop": "apps/workshop",
+    "workshop-e2e": "apps/workshop-e2e"
+  }
+}
