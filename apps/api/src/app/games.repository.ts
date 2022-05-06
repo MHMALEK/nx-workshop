@@ -1,4 +1,4 @@
-import { Game } from '@frontmen/api/util-interface';
+import { Game } from '@frontmen/util-interface';
 
 const games: Game[] = [
   {

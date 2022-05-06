@@ -15,7 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@frontmen/api/util-interface": ["libs/api/util-interface/src/index.ts"],
       "@frontmen/store/feature-game-detail": [
         "libs/store/feature-game-detail/src/index.ts"
       ],
@@ -26,7 +25,8 @@
       "@frontmen/store/util-formatters-2": [
         "libs/store/util-formatters-2/src/index.ts"
       ],
-      "@frontmen/util-formatters": ["libs/util-formatters/src/index.ts"]
+      "@frontmen/util-formatters": ["libs/util-formatters/src/index.ts"],
+      "@frontmen/util-interface": ["libs/util-interface/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

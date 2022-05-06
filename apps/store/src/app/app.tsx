@@ -1,4 +1,5 @@
 import styles from './app.module.scss';
+import { Game } from '@frontmen/util-interface';
 
 import { Header } from '@frontmen/store/ui-shared';
 import { formatRating } from '@frontmen/store/util-formatters-2';
@@ -16,7 +17,7 @@ import { useEffect, useState } from 'react';
 
 export const App = () => {
   const [state, setState] = useState<{
-    data: any[];
+    data: Game[];
     loadingState: 'success' | 'error' | 'loading';
   }>({
     data: [],
